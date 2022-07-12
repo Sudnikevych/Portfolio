@@ -1,45 +1,31 @@
 .about {
-  padding-top: 170px;
-  padding-bottom: 120px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.about .container {
+.about .container-content {
   display: flex;
-}
-
-.about-list {
-  display: flex;
-  margin-right: 64px;
-}
-
-.about-item + .about-item {
-  margin-left: 30px;
 }
 
 .about-top-text {
-  color: #303030;
-  margin-bottom: var(--typical-margin);
+  color: #757575;
+  margin-bottom: 30px;
 }
 .about-title {
-  color: var(--second-title-color);
-  margin-bottom: var(--typical-margin);
-}
-.about-bottom-text {
-  color: #555555;
-  margin-bottom: var(--typical-margin);
-}
-.about-text {
-  font-size: 14px;
-  line-height: 1.86;
-  letter-spacing: 0.02em;
-  color: #555555;
-  margin-bottom: 40px;
-}
-.about-btn {
-  color: var(--second-btn-color);
+  font-family: "Bodoni Moda", serif;
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 30px;
 }
 
-.about-btn:hover,
-.about-btn:focus {
-  color: #ffffff;
+.about-text {
+  font-size: 18px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: #757575;
+  margin-bottom: 50px;
+}
+
+.about-photo {
+  margin-left: 100px;
 }
