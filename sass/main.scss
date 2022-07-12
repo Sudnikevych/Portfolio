@@ -2,10 +2,14 @@
 @import "./utils/mixins";
 @import "./utils/visually-hidden";
 @import "./base/reset";
+@import "./base/basic";
 @import "./components/container";
+@import "./components/title";
 @import "./components/top-text";
+@import "./components/btn";
 @import "./components/socials-icons";
 @import "./components/modal";
+@import "./components/slider-main";
 @import "./layout/header";
 @import "./layout/hero";
 @import "./layout/about";

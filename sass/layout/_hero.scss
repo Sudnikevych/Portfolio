@@ -44,17 +44,18 @@
 }
 
 .hero-content {
+  height: 900px;
   background-color: #303030;
   background-image: linear-gradient(
       rgba(25, 28, 38, 0.2),
       rgba(25, 28, 38, 0.2)
     ),
-    url(../images/Slider-img-3-min.jpg);
+    url(../images/hero-bg.jpg);
 
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 272px 96px 206px 96px;
+  padding: 400px 96px 206px 1500px;
   flex-grow: 1;
 }
 
@@ -63,16 +64,12 @@
   margin-bottom: var(--typical-margin);
 }
 
-.hero-title {
-  font-family: "Raleway", sans-serif;
-  font-size: 72px;
+.hero-text {
+  font-family: "Bodoni Moda", serif;
+  font-size: 30px;
   line-height: 1.18;
-  letter-spacing: 0.05em;
-  color: var(--main-title-color);
-  margin-bottom: var(--typical-margin);
-}
-
-.hero-bottom-text {
-  color: #9da4bd;
-  max-width: 400px;
+  letter-spacing: 0.2em;
+  color: white;
+  max-width: 700px;
+  margin-bottom: 30px;
 }
