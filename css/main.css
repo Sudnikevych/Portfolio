@@ -65,7 +65,7 @@ body {
 }
 
 .container-content {
-  width: 1460px;
+  width: 1600px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -107,17 +107,19 @@ body {
   letter-spacing: 0.09em;
   text-transform: uppercase;
   background-color: transparent;
-  box-shadow: 0px 0px 7px 5px rgba(255, 255, 255, 0.2) inset;
-  -webkit-box-shadow: 0px 0px 7px 5px rgba(255, 255, 255, 0.2) inset;
-  -moz-box-shadow: 0px 0px 7px 5px rgba(255, 255, 255, 0.2) inset;
+  box-shadow: 0px 0px 7px 5px rgba(0, 0, 0, 0.1) inset;
+  -webkit-box-shadow: 0px 0px 7px 5px rgba(71, 71, 71, 0.7019607843) inset;
+  -moz-box-shadow: 0px 0px 7px 5px rgba(0, 0, 0, 0.1) inset;
   border-radius: 30px;
-  transition: background-color 300ms ease;
+  border: none;
+  transition: background-color 300ms ease, box-shadow 300ms ease;
   color: white;
 }
 
 .btn:hover,
 .btn:focus {
   background-color: white;
+  box-shadow: 0px 0px 7px 5px rgba(0, 0, 0, 0.9);
   color: black;
 }
 
@@ -610,6 +612,16 @@ body {
 
 .content .container-content {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-list {
+  display: flex;
+}
+
+.content-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .content-top-text {
@@ -632,7 +644,7 @@ body {
   margin-bottom: 50px;
 }
 
-.content-photo {
+.content-texts {
   margin-left: 100px;
 }
 
